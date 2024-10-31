@@ -7,7 +7,7 @@ This requirement helps defending against Cross Site Request Forgery attack.
 ## Multiple Postings Safe (MPS)
 Posting the same data multiple times must be safe and the action must be executed only one time.
 For example, a user submitted a form, but the network is slow. After a long wait, he refreshes the page.
-That data must have request id or any information to identify the same data and ensure that the actual work is executed only time.
+That data must have request id or any information to identify the same data and ensure that the actual work is executed only once.
 
 ## dashboard
 Return a page showing information and links to available actions on entity.
